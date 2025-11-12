@@ -8,6 +8,7 @@
   customManagers: [
     {
       customType: "regex",
+      managerFilePatterns: ["*"],
       matchStrings: [
         "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s\\S+?:\\s?(?<currentValue>\\S+)",
       ],
