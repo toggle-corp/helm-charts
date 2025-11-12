@@ -1,0 +1,16 @@
+apiVersion: v2
+description: Helm wrapper for rabbitmq-operator's manifests
+keywords:
+  - rabbitmq
+  - operator
+sources:
+  - https://github.com/toggle-corp/helm-charts/tree/main/toggle/rabbitmq-operator
+  - https://github.com/rabbitmq/cluster-operator/
+maintainers:
+  - name: Toggle
+    email: dev@togglecorp.com
+
+# https://github.com/rabbitmq/cluster-operator/releases
+name: rabbitmq-operator
+# renovate: datasource=github-tags depName=rabbitmq/cluster-operator
+version: v2.17.0
