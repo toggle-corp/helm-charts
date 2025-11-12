@@ -9,6 +9,7 @@ keywords:
   - incubator
   - incubator-raw
 sources:
+  - https://github.com/toggle-corp/helm-charts/blob/main/toggle/raw
   - https://github.com/helm/charts/blob/master/incubator/raw
 maintainers:
   - name: Toggle
