@@ -19,6 +19,7 @@ jobs:
       matrix:
         include:
           - chart: raw
+          - chart: rabbitmq-operator
 
     steps:
     - name: Checkout code
