@@ -15,4 +15,4 @@ name: rabbitmq-cluster-operator
 
 # NOTE: run ./pull-manifests.sh this to fetch the related manifests from remote
 # renovate: datasource=github-tags depName=rabbitmq/cluster-operator
-version: v2.17.0
+version: v2.17.2
